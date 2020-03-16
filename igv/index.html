@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>COVID-19 IGV</title>
+    <script src="https://cdn.jsdelivr.net/npm/igv@2.4.0/dist/igv.min.js"></script>
+</head>
+<body style="width: 100%;">
+    <h1>COVID19 - IGV</h1>
+    <div id="igv-div" style="width: 100%;"></div>
+    <script type="text/javascript">
+        var igvDiv = document.getElementById("igv-div");
+        var options = {
+            reference: {
+                id: "NC_045512.2",
+                name: "SARS-CoV-2",
+                fastaURL: "./ref/NC_045512.2.fa",
+                indexURL: "./ref/NC_045512.2.fa.fai",
+            }
+        };
+        igv.createBrowser(igvDiv, options).then(function (browser) {
+            console.log("Created IGV browser");
+        })
+    </script>
+</body>
+</html>
