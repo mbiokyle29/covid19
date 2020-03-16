@@ -32,6 +32,12 @@ export default function index() {
           displayMode: "EXPANDED",
           color: "#d67282",
           autoHeight: true
+        },
+        {
+            name: "GC percent (sliding 5bp window)",
+            type: "wig",
+            url: "./igv/ref/NC_045512.2.gc.wig",
+            color: "#7878de"
         }
       ]
     };
