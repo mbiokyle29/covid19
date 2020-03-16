@@ -2,7 +2,7 @@
 import argparse
 
 from Bio import SeqIO
-from Bio.SeqUtils import GC_skew
+from Bio.SeqUtils import GC
 from wiggelen import write
 
 
@@ -12,7 +12,10 @@ def get_fasta(file):
 
 
 def compute_gc(fasta, window):
-    return GC_skew(fasta.seq, window=window)
+    gc = []
+    for idx in range(len(fasta.seq)):
+        gc.append(GC(fasta.seq[idx:idx+window]))
+    return gc
 
 
 def main():
@@ -35,7 +38,7 @@ def main():
 
     with open(f"./{fasta.id}.gc.wig", "w") as fh:
         write(
-            ((fasta.id, idx * 5, value) for idx, value in enumerate(gc)),
+            ((fasta.id, idx, value) for idx, value in enumerate(gc)),
             fh,
             name=f"GC",
             description=f"GC percentage in a {args.bin_size}bp sliding window (from {fasta.id})"
