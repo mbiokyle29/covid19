@@ -1,0 +1,13 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM985889v3
+#!genome-build-accession NCBI_Assembly:GCF_009858895.2
+##sequence-region NC_045512.2 1 29903
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2697049
+NC_045512.2	RefSeq	five_prime_UTR	1	265	.	+	.	ID=id-NC_045512.2:1..265;gbkey=5'UTR
+NC_045512.2	RefSeq	CDS	21563	25384	.	+	0	ID=cds-YP_009724390.1;Parent=gene-GU280_gp02;Dbxref=Genbank:YP_009724390.1,GeneID:43740568;Name=YP_009724390.1;Note=structural protein%3B spike protein;gbkey=CDS;gene=S;locus_tag=GU280_gp02;product=surface glycoprotein;protein_id=YP_009724390.1
+NC_045512.2	RefSeq	CDS	26245	26472	.	+	0	ID=cds-YP_009724392.1;Parent=gene-GU280_gp04;Dbxref=Genbank:YP_009724392.1,GeneID:43740570;Name=YP_009724392.1;Note=ORF4%3B structural protein%3B E protein;gbkey=CDS;gene=E;locus_tag=GU280_gp04;product=envelope protein;protein_id=YP_009724392.1
+NC_045512.2	RefSeq	CDS	26523	27191	.	+	0	ID=cds-YP_009724393.1;Parent=gene-GU280_gp05;Dbxref=Genbank:YP_009724393.1,GeneID:43740571;Name=YP_009724393.1;Note=ORF5%3B structural protein;gbkey=CDS;gene=M;locus_tag=GU280_gp05;product=membrane glycoprotein;protein_id=YP_009724393.1
+NC_045512.2	RefSeq	CDS	28274	29533	.	+	0	ID=cds-YP_009724397.2;Parent=gene-GU280_gp10;Dbxref=Genbank:YP_009724397.2,GeneID:43740575;Name=YP_009724397.2;Note=ORF9%3B structural protein;gbkey=CDS;gene=N;locus_tag=GU280_gp10;product=nucleocapsid phosphoprotein;protein_id=YP_009724397.2
+NC_045512.2	RefSeq	three_prime_UTR	29675	29903	.	+	.	ID=id-NC_045512.2:29675..29903;gbkey=3'UTR
