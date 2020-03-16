@@ -140,7 +140,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_dynamic__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/dynamic */ "next/dynamic");
 /* harmony import */ var next_dynamic__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_dynamic__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "/Users/shanemcdermed/dev/covid19/pages/index.js";
+var _jsxFileName = "/Users/shanemcdermed/dev/covid19/vis/pages/index.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -191,7 +191,7 @@ function index() {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/shanemcdermed/dev/covid19/pages/index.js */"./pages/index.js");
+module.exports = __webpack_require__(/*! /Users/shanemcdermed/dev/covid19/vis/pages/index.js */"./pages/index.js");
 
 
 /***/ }),
