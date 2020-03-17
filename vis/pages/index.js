@@ -38,6 +38,12 @@ export default function index() {
             type: "wig",
             url: "./igv/ref/NC_045512.2.gc.wig",
             color: "#7878de"
+        },
+        {
+            name: "",
+            type: "wig",
+            url: "./igv/data/WA18-UW14Unpaired.wig",
+            color: "#e3b6dc"
         }
       ]
     };
