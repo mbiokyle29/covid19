@@ -14,6 +14,12 @@ export default function index() {
       },
       tracks: [
         {
+            name: "GC percent (sliding 5bp window)",
+            type: "wig",
+            url: "./igv/ref/NC_045512.2.gc.wig",
+            color: "#7878de"
+        },
+        {
           name: "Genes",
           type: "annotation",
           format: "gff3",
@@ -34,16 +40,11 @@ export default function index() {
           autoHeight: true
         },
         {
-            name: "GC percent (sliding 5bp window)",
+            name: "RNAseq alignments from WA18",
             type: "wig",
-            url: "./igv/ref/NC_045512.2.gc.wig",
-            color: "#7878de"
-        },
-        {
-            name: "",
-            type: "wig",
-            url: "./igv/data/WA18-UW14Unpaired.wig",
-            color: "#e3b6dc"
+            url: "./igv/dat/WA18-UW14Unpaired.wig",
+            color: "#e3b6dc",
+            height: 100
         }
       ]
     };
