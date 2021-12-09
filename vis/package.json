@@ -21,7 +21,7 @@
   "homepage": "https://github.com/mbiokyle29/covid19#readme",
   "dependencies": {
     "igv": "^2.4.0",
-    "next": "^9.3.0",
+    "next": "^11.1.3",
     "next-transpile-modules": "^3.1.0",
     "react": "^16.13.0",
     "react-dom": "^16.13.0"
